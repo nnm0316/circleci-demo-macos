@@ -1,12 +1,12 @@
 version: 2.1
 jobs: a_basic_test
-    display-system-info:
-      macos:
-        xcode: 13.3.1
-      step:
-        - run:
-          name: display system infomation
-          command: system_profiler SPHardwareDataType
+  display-system-info:
+    macos:
+      xcode: 13.3.1
+    step:
+      - run:
+        name: Display system infomation
+        command: system_profiler SPHardwareDataType
 
 
 jobs: # a basic unit of work in a run
