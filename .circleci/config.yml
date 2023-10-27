@@ -4,7 +4,7 @@ jobs: # a basic unit of work in a run
   display-system-info:
     macos:
       xcode: 14.3.1
-    step:
+    steps:
       - run:
           name: Display system infomation
           command: system_profiler SPHardwareDataType
