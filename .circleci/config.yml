@@ -1,6 +1,5 @@
 version: 2.1
-
-jobs: #a_basic_test
+jobs:
   display-system-info:
     macos:
       xcode: 14.3.1
