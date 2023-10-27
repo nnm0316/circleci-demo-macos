@@ -1,5 +1,6 @@
 version: 2.1
-jobs:
+
+jobs: # a basic unit of work in a run
   display-system-info:
     macos:
       xcode: 14.3.1
@@ -8,8 +9,6 @@ jobs:
         name: Display system infomation
         command: system_profiler SPHardwareDataType
 
-
-jobs: # a basic unit of work in a run
   test: # your job name
     macos:
       xcode: 14.3.1 # indicate our selected version of Xcode
