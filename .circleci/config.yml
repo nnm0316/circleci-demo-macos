@@ -40,7 +40,7 @@ workflows:
   test_build:
     jobs:
       - display-system-info
-      - test
+      - test:
         requires: 
           - display-system-info
       - build:
